@@ -1,0 +1,38 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    border: 5px solid black
+}
+
+*{
+    margin: 2px;
+    padding: 2px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    animation-name: right;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes right{
+    from{
+    top: 0;
+    left: 0;
+    }
+    to{
+      top: 0;
+      left: 500px;
+    }
+}

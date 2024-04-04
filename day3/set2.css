@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.parent{
+    background-color: blueviolet;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+}
